@@ -1,0 +1,26 @@
+.SplitPanel {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  width: 100vw;
+  height: 100vh;
+  padding: 8px;
+}
+
+.SplitPanel-Top {
+    flex: 1 0;
+}
+
+.SplitPanel-Bottom {
+    flex: 4 0;
+    display: flex;
+    flex-flow: row;
+}
+
+.SplitPanel-Left {
+    flex: 1 0;
+}
+
+.SplitPanel-Right {
+    flex: 1 0;
+}
